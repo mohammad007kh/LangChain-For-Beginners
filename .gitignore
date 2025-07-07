@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.*
+
+# VS Code settings
+.vscode/
+
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python egg files
+*.egg-info/
+*.egg
+
+debug.log
+
+# PowerShell history
+*.pshistory
+
+# Misc
+*.log
+*.bak
+*.tmp
+
+# Ignore presentations and large binary files
+*.pptx
+*.ppt
+*.pdf
+
+# Ignore data/output folders (customize as needed)
+output/
+data/
+
+# Ignore LangChain cache (if used)
+.lc_cache/
