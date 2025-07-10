@@ -1,20 +1,22 @@
 [برای مشاهده توضیحات فارسی اینجا کلیک کنید.](#آموزش-لانگ-چین-برای-مبتدیان)
 
-# LangChain Crash Course (Beginner Friendly)
+# LangChain for Beginners | لنگ‌چین برای مبتدیان
 
-This repository contains a beginner-friendly, hands-on tutorial for learning LangChain with practical code samples and explanations in Persian (Farsi).
+This repository contains a beginner-friendly, hands-on tutorial for learning LangChain with practical code samples, a Streamlit app, and explanations in Persian (Farsi).
 
 ## Contents
 - Step-by-step Jupyter notebook (`01_langchain_intro.ipynb`)
-- Streamlit app for interactive use (`02_langchain_streamlit.py`)
-- Explanations and code for prompt templates, chains, and more
+- Interactive Streamlit app (`01_langchain_intro_streamlit.py`)
+- Agents and tool-using assistant notebook (`02_langchain_agents.ipynb`)
+- Explanations and code for prompt templates, chains, agents, and more
 - Right-to-left markdowns for Persian learners
+- [YouTube Video Playlist for the Course](https://www.youtube.com/playlist?list=PLHSUcJ83dbdE_vTqh5ZweZaE-iC-a8flp)
 
 ## How to Run
-- To run the notebook: open `01_langchain_intro.ipynb` in Jupyter or VS Code.
+- To run the notebooks: open them in Jupyter or VS Code.
 - To run the Streamlit app:
   ```bash
-  streamlit run 02_langchain_streamlit.py
+  streamlit run 01_langchain_intro_streamlit.py
   ```
 
 ## Status
@@ -26,21 +28,23 @@ Feel free to open issues or suggestions if you have feedback or requests.
 
 ---
 
-# آموزش لانگ‌چین برای مبتدیان
+# آموزش لنگ‌چین برای مبتدیان
 
-این مخزن شامل یک آموزش گام‌به‌گام و پروژه‌محور برای یادگیری LangChain به زبان ساده و با مثال‌های عملی به زبان فارسی است.
+این مخزن شامل آموزش ویدیویی، نوت‌بوک Jupyter و اپلیکیشن Streamlit برای یادگیری LangChain به زبان ساده و با مثال‌های عملی به زبان فارسی است.
 
 ## محتوا
 - نوت‌بوک Jupyter مرحله‌به‌مرحله (`01_langchain_intro.ipynb`)
-- اپلیکیشن Streamlit برای استفاده تعاملی (`02_langchain_streamlit.py`)
-- توضیحات و کد برای قالب‌های پرامپت، زنجیره‌ها و موارد دیگر
+- اپلیکیشن Streamlit تعاملی (`01_langchain_intro_streamlit.py`)
+- نوت‌بوک ایجنت‌ها و ابزارها (`02_langchain_agents.ipynb`)
+- توضیحات و کد برای قالب‌های پرامپت، زنجیره‌ها، ایجنت‌ها و موارد دیگر
 - توضیحات راست‌به‌چپ برای فارسی‌زبانان
+- [ویدیوهای دوره در یوتیوب](https://www.youtube.com/playlist?list=PLHSUcJ83dbdE_vTqh5ZweZaE-iC-a8flp)
 
 ## نحوه اجرا
-- برای اجرای نوت‌بوک: فایل `01_langchain_intro.ipynb` را در Jupyter یا VS Code باز کنید.
+- برای اجرای نوت‌بوک‌ها: آن‌ها را در Jupyter یا VS Code باز کنید.
 - برای اجرای اپلیکیشن Streamlit:
   ```bash
-  streamlit run 02_langchain_streamlit.py
+  streamlit run 01_langchain_intro_streamlit.py
   ```
 
 ## وضعیت

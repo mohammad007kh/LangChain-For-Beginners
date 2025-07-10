@@ -36,7 +36,6 @@ message = st.text_area("موضوع یا پیام کوتاه آموزش", "آمو
 generate = st.button("تولید عنوان و توضیح")
 
 if generate:
-    # Map Persian tones to English if needed
     tone_map = {
         "دوستانه / Friendly": "friendly",
         "رسمی / Formal": "formal",
