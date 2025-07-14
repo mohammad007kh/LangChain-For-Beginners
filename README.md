@@ -5,9 +5,14 @@
 This repository contains a beginner-friendly, hands-on tutorial for learning LangChain with practical code samples, a Streamlit app, and explanations in Persian (Farsi).
 
 ## Contents
-- Step-by-step Jupyter notebook (`01_langchain_intro.ipynb`)
-- Interactive Streamlit app (`01_langchain_intro_streamlit.py`)
-- Agents and tool-using assistant notebook (`02_langchain_agents.ipynb`)
+
+## Episodes
+- **Episode 1:** Step-by-step Jupyter notebook (`01_langchain_intro.ipynb`)
+- **Episode 2:** Agents and tool-using assistant notebook (`02_langchain_agents.ipynb`)
+- **Episode 3:** Multi-tool agent demo (notebook)
+- **Episode 4:** Switching LLM from ChatGPT to Groq (Mixtral, Llama3, etc.)
+
+Other features:
 - Explanations and code for prompt templates, chains, agents, and more
 - Right-to-left markdowns for Persian learners
 - [YouTube Video Playlist for the Course](https://www.youtube.com/playlist?list=PLHSUcJ83dbdE_vTqh5ZweZaE-iC-a8flp)
@@ -34,8 +39,14 @@ Feel free to open issues or suggestions if you have feedback or requests.
 
 ## محتوا
 - نوت‌بوک Jupyter مرحله‌به‌مرحله (`01_langchain_intro.ipynb`)
-- اپلیکیشن Streamlit تعاملی (`01_langchain_intro_streamlit.py`)
-- نوت‌بوک ایجنت‌ها و ابزارها (`02_langchain_agents.ipynb`)
+
+## قسمت‌ها
+- **قسمت ۱:** نوت‌بوک Jupyter مرحله‌به‌مرحله (`01_langchain_intro.ipynb`)
+- **قسمت ۲:** نوت‌بوک ایجنت‌ها و ابزارها (`02_langchain_agents.ipynb`)
+- **قسمت ۳:** دمو ایجنت چندابزاره (نوت‌بوک)
+- **قسمت ۴:** تعویض مدل زبانی از ChatGPT به Groq (Mixtral، Llama3 و ...)
+
+سایر امکانات:
 - توضیحات و کد برای قالب‌های پرامپت، زنجیره‌ها، ایجنت‌ها و موارد دیگر
 - توضیحات راست‌به‌چپ برای فارسی‌زبانان
 - [ویدیوهای دوره در یوتیوب](https://www.youtube.com/playlist?list=PLHSUcJ83dbdE_vTqh5ZweZaE-iC-a8flp)
