@@ -7,6 +7,34 @@ This repository contains a beginner-friendly, hands-on tutorial for learning Lan
 
 ---
 
+
+## Folder Structure
+```
+LangChain-For-Beginners/
+├─ README.md           # Main documentation
+├─ LICENSE             # MIT license
+├─ requirements.txt    # Python dependencies
+├─ .env.example        # Sample API keys file
+├─ notebooks/          # All Jupyter tutorial notebooks
+│   ├─ 01_langchain_intro.ipynb
+│   ├─ 02_langchain_agents.ipynb
+│   ├─ 03_langchain_websearch_agent.ipynb
+│   └─ 04_langchain_groq.ipynb
+├─ streamlit/          # Streamlit apps for interactive demos
+│   ├─ 01_langchain_intro_streamlit.py
+│   └─ 03_langchain_websearch_agent_streamlit.py
+├─ assets/             # Images and other assets
+│   └─ images/
+```
+
+**Explanation:**
+- `notebooks/`: Contains all step-by-step Jupyter notebooks for each episode.
+- `streamlit/`: Interactive Streamlit apps for hands-on demos.
+- `assets/images/`: Screenshots or visual assets (optional).
+- `.env.example`: Template for API keys (copy and rename to `.env`).
+- `requirements.txt`: All required Python packages for notebooks and apps.
+
+
 ## Quick Start
 1. **Clone the repo:**
    ```bash
