@@ -19,7 +19,9 @@ LangChain-For-Beginners/
 │   ├─ 01_langchain_intro.ipynb
 │   ├─ 02_langchain_agents.ipynb
 │   ├─ 03_langchain_websearch_agent.ipynb
-│   └─ 04_langchain_groq.ipynb
+│   ├─ 04_langchain_groq.ipynb
+│   ├─ 05_langchain_memory.ipynb
+│   └─ 06_langchain_chains.ipynb
 ├─ streamlit/          # Streamlit apps for interactive demos
 │   ├─ 01_langchain_intro_streamlit.py
 │   └─ 03_langchain_websearch_agent_streamlit.py
@@ -76,9 +78,13 @@ LangChain-For-Beginners/
   - *Multi-tool agent demo, including Wikipedia and Google search.*
 - **Episode 4:** Groq LLM demo (`04_langchain_groq.ipynb`)
   - *Switching LLM from ChatGPT to Groq (Mixtral, Llama3, etc.).*
+- **Episode 5:** Memory in LangChain (`05_langchain_memory.ipynb`)
+  - *How to use memory in chains and agents, with practical examples.*
+- **Episode 6:** Chains in LangChain (`06_langchain_chains.ipynb`)
+  - *Modern chain patterns, LCEL, and best practices for multi-step workflows.*
 
 Other features:
-- Explanations and code for prompt templates, chains, agents, and more
+- Explanations and code for prompt templates, chains, agents, memory, and more
 - Right-to-left markdowns for Persian learners
 - [YouTube Video Playlist for the Course](https://www.youtube.com/playlist?list=PLHSUcJ83dbdE_vTqh5ZweZaE-iC-a8flp)
 
@@ -156,6 +162,7 @@ Feel free to open issues or suggestions if you have feedback or requests.
 
 ---
 
+
 ## قسمت‌ها
 - **قسمت ۱:** نوت‌بوک مرحله‌به‌مرحله (`01_langchain_intro.ipynb`)
   - *آشنایی اولیه و راه‌اندازی LangChain.*
@@ -165,6 +172,10 @@ Feel free to open issues or suggestions if you have feedback or requests.
   - *دموی ایجنت چندابزاره شامل ویکی‌پدیا و جستجوی گوگل.*
 - **قسمت ۴:** دمو مدل Groq (`04_langchain_groq.ipynb`)
   - *تعویض مدل زبانی از ChatGPT به Groq (Mixtral، Llama3 و ...).* 
+- **قسمت ۵:** حافظه در LangChain (`05_langchain_memory.ipynb`)
+  - *آموزش استفاده از حافظه در زنجیره‌ها و ایجنت‌ها با مثال عملی.*
+- **قسمت ۶:** زنجیره‌ها در LangChain (`06_langchain_chains.ipynb`)
+  - *الگوهای مدرن زنجیره‌سازی، LCEL و بهترین شیوه‌های ساخت جریان‌های چندمرحله‌ای.*
 
 سایر امکانات:
 - توضیحات و کد برای قالب‌های پرامپت، زنجیره‌ها، ایجنت‌ها و موارد دیگر
