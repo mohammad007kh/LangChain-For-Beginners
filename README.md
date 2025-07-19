@@ -43,13 +43,13 @@ Screenshots of the Streamlit app outputs are available in the `assets/images/` f
 
 
 <p align="center">
-  <img src="./assets/images/streamlit_intro_output.png" alt="Streamlit Intro Output" width="400"/>
+  <img src="https://github.com/mohammad007kh/LangChain-For-Beginners/blob/main/assets/images/01_langchain_intro_streamlit.png" alt="Streamlit Intro Output" width="400"/>
   <br>
   <em>Sample output from 01_langchain_intro_streamlit.py</em>
 </p>
 
 <p align="center">
-  <img src="./assets/images/streamlit_websearch_output.png" alt="Streamlit Websearch Output" width="400"/>
+  <img src="https://github.com/mohammad007kh/LangChain-For-Beginners/blob/main/assets/images/03_langchain_websearch_agent_streamlit.png" alt="Streamlit Websearch Output" width="400"/>
   <br>
   <em>Sample output from 03_langchain_websearch_agent_streamlit.py</em>
 </p>
