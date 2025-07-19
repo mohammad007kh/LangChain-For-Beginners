@@ -14,7 +14,6 @@ LangChain-For-Beginners/
 ├─ README.md           # Main documentation
 ├─ LICENSE             # MIT license
 ├─ requirements.txt    # Python dependencies
-├─ .env.example        # Sample API keys file
 ├─ notebooks/          # All Jupyter tutorial notebooks
 │   ├─ 01_langchain_intro.ipynb
 │   ├─ 02_langchain_agents.ipynb
@@ -26,15 +25,36 @@ LangChain-For-Beginners/
 │   ├─ 01_langchain_intro_streamlit.py
 │   └─ 03_langchain_websearch_agent_streamlit.py
 ├─ assets/             # Images and other assets
-│   └─ images/
+│   └─ images/         # Output screenshots and visual assets
 ```
 
 **Explanation:**
 - `notebooks/`: Contains all step-by-step Jupyter notebooks for each episode.
 - `streamlit/`: Interactive Streamlit apps for hands-on demos.
-- `assets/images/`: Screenshots or visual assets (optional).
-- `.env.example`: Template for API keys (copy and rename to `.env`).
+- `assets/images/`: Output screenshots and visual assets (e.g., Streamlit app results, notebook outputs).
 - `requirements.txt`: All required Python packages for notebooks and apps.
+---
+
+## Streamlit App Output Samples
+
+
+Screenshots of the Streamlit app outputs are available in the `assets/images/` folder. Here are some examples:
+
+
+
+<p align="center">
+  <img src="./assets/images/streamlit_intro_output.png" alt="Streamlit Intro Output" width="400"/>
+  <br>
+  <em>Sample output from 01_langchain_intro_streamlit.py</em>
+</p>
+
+<p align="center">
+  <img src="./assets/images/streamlit_websearch_output.png" alt="Streamlit Websearch Output" width="400"/>
+  <br>
+  <em>Sample output from 03_langchain_websearch_agent_streamlit.py</em>
+</p>
+
+You can add your own screenshots to this folder to document your results or share with others!
 
 
 ## Quick Start

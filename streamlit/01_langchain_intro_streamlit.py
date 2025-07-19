@@ -20,11 +20,11 @@ st.write("این برنامه با استفاده از LangChain و مدل GPT-3
 
 # User input for API key
 st.sidebar.header("API Key")
-openai_api_key = st.sidebar.text_input("OpenAI API Key", type="password")
+os.environ["OPENAI_API_KEY"] = st.sidebar.text_input("OpenAI API Key", type="password")
 
 # Set environment variable for libraries that require it
-if openai_api_key:
-    os.environ["OPENAI_API_KEY"] = openai_api_key
+#if openai_api_key:
+#    os.environ["OPENAI_API_KEY"] = openai_api_key
 
 
 # User inputs
