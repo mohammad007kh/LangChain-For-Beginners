@@ -45,6 +45,7 @@ debug.log
 # Ignore data/output folders (customize as needed)
 output/
 data/
+local_models/
 
 # Ignore LangChain cache (if used)
 .lc_cache/
