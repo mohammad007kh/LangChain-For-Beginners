@@ -1,4 +1,4 @@
-[برای مشاهده توضیحات فارسی اینجا کلیک کنید.](#آموزش-لانگ-چین-برای-مبتدیان)
+[برای مشاهده توضیحات فارسی اینجا کلیک کنید.](#persian-overview)
 
 
 # LangChain for Beginners | لنگ‌چین برای مبتدیان
@@ -20,7 +20,10 @@ LangChain-For-Beginners/
 │   ├─ 03_langchain_websearch_agent.ipynb
 │   ├─ 04_langchain_groq.ipynb
 │   ├─ 05_langchain_memory.ipynb
-│   └─ 06_langchain_chains.ipynb
+│   ├─ 06_langchain_chains.ipynb
+│   ├─ 07_langchain_local_file.ipynb
+│   ├─ 07_langchain_local_Ollama.ipynb
+│   └─ 08_langchain_agents_Parallel.ipynb
 ├─ streamlit/          # Streamlit apps for interactive demos
 │   ├─ 01_langchain_intro_streamlit.py
 │   └─ 03_langchain_websearch_agent_streamlit.py
@@ -102,6 +105,10 @@ You can add your own screenshots to this folder to document your results or shar
   - *How to use memory in chains and agents, with practical examples.*
 - **Episode 6:** Chains in LangChain (`06_langchain_chains.ipynb`)
   - *Modern chain patterns, LCEL, and best practices for multi-step workflows.*
+- **Episode 7:** Working with Local Models (`07_langchain_local_file.ipynb`, `07_langchain_local_Ollama.ipynb`)
+  - *Load local files and connect to Ollama-hosted LLMs for private workflows.*
+- **Episode 8:** Parallel Agents & RunnableParallel (`08_langchain_agents_Parallel.ipynb`)
+  - *Run multiple prompts or tool-using agents concurrently, compare serial vs. parallel timing, and build a multi-tool agent executor.*
 
 Other features:
 - Explanations and code for prompt templates, chains, agents, memory, and more
@@ -144,6 +151,8 @@ Feel free to open issues or suggestions if you have feedback or requests.
 
 ---
 
+
+<a id="persian-overview"></a>
 
 # آموزش لنگ‌چین برای مبتدیان
 
@@ -196,6 +205,10 @@ Feel free to open issues or suggestions if you have feedback or requests.
   - *آموزش استفاده از حافظه در زنجیره‌ها و ایجنت‌ها با مثال عملی.*
 - **قسمت ۶:** زنجیره‌ها در LangChain (`06_langchain_chains.ipynb`)
   - *الگوهای مدرن زنجیره‌سازی، LCEL و بهترین شیوه‌های ساخت جریان‌های چندمرحله‌ای.*
+- **قسمت ۷:** کار با مدل‌های محلی (`07_langchain_local_file.ipynb`, `07_langchain_local_Ollama.ipynb`)
+  - *بارگذاری فایل‌های محلی و اتصال به مدل‌های Ollama برای اجرای خصوصی.*
+- **قسمت ۸:** ایجنت‌های موازی و RunnableParallel (`08_langchain_agents_Parallel.ipynb`)
+  - *اجرای همزمان چند پرامپت یا ایجنت ابزارمحور، مقایسه زمان سریالی و موازی، و ساخت یک ایجنت چندابزاره.*
 
 سایر امکانات:
 - توضیحات و کد برای قالب‌های پرامپت، زنجیره‌ها، ایجنت‌ها و موارد دیگر
